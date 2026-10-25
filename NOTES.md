@@ -1,8 +1,12 @@
-## What I built
-I built a JavaScript converter script (`week02-converter.js`) that handles unit conversions, specifically converting kilometers to miles and Celsius to Fahrenheit, ensuring the outputs include the proper units.
+# Project Notes: JavaScript Grade Calculator
+## What I Built
+* Developed a JavaScript grade calculator program that validates student scores, assigns letter grades, computes the overall mean score
 
-## What got me stuck
-I initially forgot to include the `return` statement in the first part of the function. I also ran into formatting issues with the 2nd and 3rd parts where I missed appending the correct measurement units ("miles" and "°F") to the converted values.
+## What Got Me Stuck
+* Initially used `console.log` inside the `getGrade` function instead of `return` statements, which required adjusting how values are passed back
+* Encountered minor challenges with the final execution loop and variable scoping/initialization, but researched and worked through them to gain a solid understanding.
 
-## Did I use AI, and how?
-Yes, I used AI to guide me. I first used it to get guidelines on structuring the functions. When I missed the `return` statement and the measurement units, I took pictures/shared my code with the AI to get instructions on how to fix those bugs. Finally, I used AI to confirm if my final code matched the assignment requirements before submitting.
+## Use of AI
+* Used AI as a coding assistant and guide to help structure the functions and ensure alignment with the assignment requirements.
+* Shared screenshots and code snippets to debug specific issues—such as switching from `console.log` to `return`—and to confirm the final script logic before submission.
+*
