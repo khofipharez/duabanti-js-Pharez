@@ -1,6 +1,5 @@
 # Project Notes: JavaScript Grade Calculator
 ## What I Built
-* Developed a JavaScript grade calculator program that validates student scores, assigns letter grades, computes the overall mean score
 
 ## What Got Me Stuck
 * Initially used `console.log` inside the `getGrade` function instead of `return` statements, which required adjusting how values are passed back
